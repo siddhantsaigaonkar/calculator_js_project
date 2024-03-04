@@ -8,7 +8,7 @@ buttonarray.forEach((btn) => {
     if (e.target.innerText === "DEL") {
       string = string.substring(0, string.length - 1);
       display.value = string;
-    } else if (e.target.innerHTML == "Ac") {
+    } else if (e.target.innerHTML == "AC") {
       string = "";
       display.value = string;
     } else if (e.target.innerText === "=") {
